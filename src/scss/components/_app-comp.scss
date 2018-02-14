@@ -1,0 +1,22 @@
+.hui-nav {
+  display: flex;
+  align-items: center;
+  height: $header;
+  max-height: $header;
+  padding: 0 12px;
+  background-color: $bl-t1;
+  color: $wh;
+
+  &__menu {
+    flex: 1;
+  }
+
+  &__action {
+    flex: 0 0 auto;
+  }
+}
+
+.hui-footer {
+  height: $footer;
+  background-color: $bl-t1;
+}

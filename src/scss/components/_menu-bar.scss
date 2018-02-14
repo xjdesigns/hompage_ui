@@ -1,0 +1,27 @@
+.hui-menu-bar {
+  & > ul {
+    display: flex;
+    align-items: center;
+    margin: 0 12px 0 0;
+    color: $wh;
+    font-size: .75rem;
+    cursor: pointer;
+
+    & > li {
+      flex: 0 0 auto;
+      padding-right: 12px;
+
+      &:hover {
+        color: $pr;
+      }
+    }
+  }
+}
+
+.sg-countdown {
+  display: flex;
+
+  p {
+    font-size: .75rem;
+  }
+}

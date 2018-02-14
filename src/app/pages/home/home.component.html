@@ -1,0 +1,15 @@
+<h1>Welcome to HOMEPAGE.io</h1>
+<p>
+  The idea here is to make a homepage web app that a user could sign in and customize there content. This would optimize there web experience by navigating to a single source in which you could navigate the content you setup.
+</p>
+<p>Initial testing will be using localStorage to hande our data. At that point I get put auth in and use firebase to store my user data.</p>
+<form class="spx-form" [formGroup]="userForm">
+  <div class="flex">
+    <div class="flex__i--xs-12">
+      <label class="spx-label">User Name</label>
+      <input class="spx-input" type="text" formControlName="user">
+    </div>
+  </div>
+</form>
+<p>{{userForm.value | json}}</p>
+<button class="spx-btn spx-btn--pr" (click)="setUserName()">Set my name</button>

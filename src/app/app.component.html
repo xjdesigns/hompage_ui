@@ -1,0 +1,38 @@
+<nav class="hui-nav">
+  <div class="hui-nav__menu">
+    <div class="hui-menu-bar">
+      <ul>
+        <li>File</li>
+        <li>Edit</li>
+        <li>View</li>
+        <li>
+          <app-countdown-timer [date]="'2018-09-09'" isClock="true"></app-countdown-timer>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="hui-nav__actions">
+    <button
+      class="spx-btn spx-btn--sm spx-btn--pr--inverted spx-btn--circle"
+      data-icon="check"
+    ></button>
+    <button
+      class="spx-btn spx-btn--sm spx-btn--pr--inverted spx-btn--circle"
+      data-icon="verified_user"
+    ></button>
+    <button
+      class="spx-btn spx-btn--sm spx-btn--pr--inverted spx-btn--circle"
+      data-icon="delete"
+    ></button>
+    <button
+      class="spx-btn spx-btn--sm spx-btn--pr--inverted spx-btn--circle"
+      data-icon="more_vert"
+    ></button>
+  </div>
+</nav>
+<main class="hui-main">
+  <router-outlet></router-outlet>
+</main>
+<footer class="hui-footer">
+  <p>I am footer</p>
+</footer>

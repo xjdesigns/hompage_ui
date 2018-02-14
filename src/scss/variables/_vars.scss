@@ -1,0 +1,20 @@
+// https://color.adobe.com/create/color-wheel/
+// COLORS
+$pr: #00FF12;
+$pr-l1: #45E80C;
+$pr-l2: #A1FF0D;
+$pr-d1: #0CE85A;
+$pr-d2: #0DFFA7;
+
+
+// CONTRAST
+$bl: #000;
+$wh: #fff;
+$bl-t1: rgba(0,0,0,0.8);
+$wh-t1: rgba(255,255,255,0.8);
+
+
+// HEADERS/MAIN/FOOTERS
+$header: 36px;
+$footer: 36px;
+$main: calc(100vh - #{$header} - #{$footer});
